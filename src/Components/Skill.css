@@ -1,0 +1,73 @@
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:rgb(40, 42, 40);
+  }
+  
+  .skills h2 {
+    margin-bottom: 10px;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color: rgb(116, 231, 29);
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills li {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skills li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skills li .skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills li .skill-container svg {
+    margin-bottom: 10px;
+  }
+  
+  .skills li .skill-container .skill-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .skills li .skill-container .skill-rating {
+    display: flex;
+  }
+  
+  .skills li .skill-container .skill-rating span {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    margin-right: 3px;
+  }
+  
+  .skills li .skill-container .skill-rating .filled {
+    background-color: #ba4646; /* Change color to match your theme */
+  }
+  
+   
